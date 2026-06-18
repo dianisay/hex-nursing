@@ -25,6 +25,15 @@
 - [x] Reversal documented and discussed honestly
 - [x] Both unadjusted and adjusted cost figures reported
 
+### Phase 3b: Graph-model TSP optimisation ✅ (NEW)
+- [x] NetworkX graphs built for both layouts (4-connected square, 6-connected hex)
+- [x] Dijkstra all-pairs shortest paths computed
+- [x] Exact MTZ TSP solved with PuLP/CBC (Gurobi auto-detected if available)
+- [x] Key result: hex mean NS→room distance 6.94 m vs square 8.68 m (−20.1%)
+- [x] Full-round TSP: square 60.1 m vs hex 61.0 m (<2% difference)
+- [x] Three new figures: tour overlay, heatmap, distance summary
+- [x] LaTeX article updated: new Methods §3.6, new Results §4.8, Discussion §5.2 rewritten
+
 ### Phase 3: Crossing-point definition ✅
 - [x] Formal definition: "node where nurse route encounters ≥1 branch"
 - [x] Counts: square 2–3, hexagonal 4–6
