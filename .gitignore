@@ -1,0 +1,28 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+main.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Python environments
+venv/
+.env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
